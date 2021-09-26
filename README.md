@@ -1,2 +1,2 @@
-# TMS-Prototype
+# TMS-MVP
 An OKR tool.
