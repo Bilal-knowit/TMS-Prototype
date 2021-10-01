@@ -7,6 +7,8 @@ import Toppings from './components/Toppings/Toppings';
 import Order from './components/Order/Order';
 import Visualization from './components/VisualizeOKR/VisualizeOKR';
 import Progress from './components/Progress/Progress';
+import Department from './components/Department/Department';
+import Company from './components/Company/Company';
 
 function App() {
   const [pizza, setPizza] = useState({ base: "", toppings: [] });
@@ -43,6 +45,12 @@ function App() {
         </Route>
         <Route path="/progress">
           <Progress />
+        </Route>
+        <Route path="/companyHome">
+          <Company />
+        </Route>
+        <Route path="/departmentHome">
+          <Department />
         </Route>
         <Route path="/">
           <Home />
